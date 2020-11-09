@@ -20,7 +20,9 @@ defmodule OrdersWeb.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", OrdersWeb do
-  #   pipe_through :api
-  # end
+   scope "/api", OrdersWeb do
+     pipe_through :api
+
+     resources "/klanten", KlantController
+   end
 end
