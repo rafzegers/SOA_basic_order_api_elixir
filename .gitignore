@@ -2,6 +2,7 @@
 /config/dev.exs
 /config/prod.exs
 /config/prod.secret.exs
+/config/test.exs
 
 # The directory Mix will write compiled artifacts to.
 /_build/
